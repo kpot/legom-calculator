@@ -1,0 +1,44 @@
+:root {
+	--nutrient-N-color: #c0a22e;
+	--nutrient-P-color: #ff9955;
+	--nutrient-K-color: #e36868;
+	--nutrient-Mg-color: #e1779a;
+}
+@media screen {
+	body {max-width: 960px !important;}
+
+	h1 { font-size: 180%; }
+	h2 { font-size: 150%; margin-top: 1em; }
+	h3 { font-size: 130%; }
+
+	input[type=number] {
+		-moz-appearance: textfield;
+		appearance: textfield;
+		margin: 0;
+	}
+
+	input[type=number]::-webkit-inner-spin-button,
+	input[type=number]::-webkit-outer-spin-button {
+		-webkit-appearance: none;
+		margin: 0;
+	}
+
+	.nutrient-N {background-color: var(--nutrient-N-color) !important;}
+	.nutrient-P {background-color: var(--nutrient-P-color) !important;}
+	.nutrient-K {background-color: var(--nutrient-K-color) !important;}
+	.nutrient-Mg {background-color: var(--nutrient-Mg-color) !important;}
+	.nutrient-N, .nutrient-P, .nutrient-K, .nutrient-Mg, .fert-remainder {
+		border-radius: var(--bs-border-radius);
+		color: white;
+		min-width: 4em;
+	}
+
+
+    .input-field-reference {
+        display: inline-block;
+        border: 1px solid var(--bs-border-color);
+        border-radius: var(--bs-border-radius);
+        padding: var(--bs-border-radius);
+        color: var(--bs-body-color);
+    }
+} /* media */

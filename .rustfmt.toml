@@ -1,0 +1,5 @@
+max_width = 100
+# group_imports = "StdExternalCrate"
+# overflow_delimited_expr = true
+struct_lit_width = 100
+use_field_init_shorthand = true

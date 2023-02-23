@@ -1,0 +1,6 @@
+@media only print {
+    .no_print, .fert-not-used {display: none;}
+    table {border-collapse:collapse;}
+    table td, table th {border:1px solid silver; padding:0 0.5em;}
+    #recommended table td ul {list-style:none;}
+}

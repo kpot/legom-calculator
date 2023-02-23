@@ -1,0 +1,10 @@
+.new-fert-list > div {border-bottom: 1px solid gray;}
+.new-fert-list label {white-space: nowrap;}
+
+.nutrient-N-input, .nutrient-P-input, .nutrient-K-input, .nutrient-Mg-input {
+    border-width: 2px;
+}
+.nutrient-N-input { border-color: var(--nutrient-N-color); }
+.nutrient-P-input { border-color: var(--nutrient-P-color); }
+.nutrient-K-input { border-color: var(--nutrient-K-color); }
+.nutrient-Mg-input { border-color: var(--nutrient-Mg-color); }

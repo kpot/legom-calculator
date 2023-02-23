@@ -1,0 +1,8 @@
+.DS_Store
+.idea
+*.log
+.projectile
+Cargo.lock
+tmp/
+target/
+dist/

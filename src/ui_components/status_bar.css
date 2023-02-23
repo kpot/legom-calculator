@@ -1,0 +1,21 @@
+@media screen {
+    .col {
+		white-space: nowrap;
+		min-width: 5em;
+		margin-top: auto;
+		margin-bottom: auto;
+		border-radius: 0.35rem;
+	}
+	.deficite {
+		background-color: lightgray !important;
+		color: black;
+	}
+	.nutrient-N { border-top-right-radius: 0 !important; border-bottom-right-radius: 0 !important;}
+	.nutrient-P { border-radius: 0 !important;}
+	.nutrient-K { border-radius: 0 !important;}
+	.nutrient-Mg { border-top-left-radius: 0 !important; border-bottom-left-radius: 0 !important; }
+}
+
+@media only print {
+    & { display: none; }
+}

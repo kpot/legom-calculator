@@ -1,0 +1,29 @@
+@media screen {
+    & {
+        height: 440px;
+        overflow: scroll;
+        border: 2px solid lightgray;
+    }
+    & > div {border-bottom: 1px dotted gray;}
+    .fert-nutrient {color: white; font-size: 90%;}
+    .fert-nutrient span {font-size: 135%;}
+
+    .nutrient-N { border-top-right-radius: 0 !important; border-bottom-right-radius: 0 !important;}
+    .nutrient-P { border-radius: 0 !important;}
+    .nutrient-K { border-radius: 0 !important;}
+    .nutrient-Mg { border-radius: 0 !important;}
+
+    .nutrient-N,
+    .nutrient-P,
+    .nutrient-K,
+    .nutrient-Mg,
+    .fert-remainder {
+        min-width: 4em;
+    }
+
+    .fert-remainder input {
+        border-top-left-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
+        height: 100%;
+    }
+}
