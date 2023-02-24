@@ -55,7 +55,7 @@ pub(crate) fn StatusBar(props: &StatusBarProps) -> Html {
                     {nutrient_deficite_column(ElemName::Phosphorus, "фосфор")}
                     {nutrient_deficite_column(ElemName::Potassium, "калий")}
                     {nutrient_deficite_column(ElemName::Magnesium, "магний")}
-                    <div class="col">
+                    <div class="col gx-sm-4 gx-1">
                         <button type="submit" class="btn btn-primary"
                             disabled={props.deficites.any() || !props.state_is_valid}
                             onclick={on_btn_click}>

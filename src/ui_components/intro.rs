@@ -8,7 +8,7 @@ pub fn Intro() -> Html {
     html! {
         <>
             <h1>{"Калькулятор оптимальной смеси удобрений №2"}<br/>{" по методу Миттлайдера"}</h1>
-            <CollapsibleSection description="Что это такое такое?">
+            <CollapsibleSection description="Что это такое?">
                 {raw_html(
                     r##"
                     <div>
@@ -28,7 +28,7 @@ pub fn Intro() -> Html {
                         (N&mdash;P<sub>2</sub>O<sub>5</sub>&mdash;K<sub>2</sub>O и
                         MgO&mdash;P<sub>2</sub>O<sub>5</sub>),
                         используя <strong>минимум удобрений</strong>.
-                        Предпосадочная смесь №1 не требует сложных расчётов,
+                        Предпосадочная же смесь №1 не требует сложных расчётов,
                         и её вы можете составить следуя
                         <a href="https://legom.info/blog/2010/3/18/70/#smes1">этой инструкции</a>.
                     </p>
